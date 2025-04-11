@@ -1,0 +1,408 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  padding: 0 auto;
+  /* background-color: #e8e4e4d9; */
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+section {
+  margin-bottom: 50px;
+  /* margin: 0 150px 20px 150px; */
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* #d60017 */
+
+/* .nunito-<uniquifier > {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+.head {
+  margin-top: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  border-bottom-right-radius: 350px 80%;
+  padding-left: 50px;
+}
+.head > h1 {
+  font-size: 50px;
+  color: #d60017;
+  margin-bottom: 20px;
+}
+em {
+  color: #d60017;
+  font-size: 35px;
+}
+
+.lyrics-body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  /* width: 100%; */
+  border-top-right-radius: 30%;
+}
+.lyrics-text {
+  padding: 10px 30px;
+  margin-right: 20px;
+  /* font-size: 12px;
+  text-align: start; */
+}
+.lyrics-text > h2 {
+  text-align: center;
+}
+div.lyrics-text > p {
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  font-weight: bolder;
+  color: #000000;
+  text-align: start;
+}
+div.lyrics-text > p > em {
+  color: #d60017;
+  font-size: 18px;
+  font-weight: lighter;
+}
+.listen-button {
+  display: flex;
+  justify-content: center;
+  /* width: 100%; */
+  padding: 25px 0px 0px 0px;
+  color: #f4f4f4;
+  font-family: "Nunito", sans-serif;
+}
+.listen-button > button {
+  font-size: 14px;
+  padding: 15px 10px;
+  border-radius: 5px;
+  background-color: #d60017;
+  color: #f4f4f4;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+}
+.listen-button > button > a {
+  color: #f4f4f4;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+}
+.listen-button > button:hover {
+  background-color: #1b0303;
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+.album-art {
+  margin-left: 20px;
+  padding: 0px 30px;
+}
+.album-art > img {
+  border-radius: 30% 10%;
+  overflow: hidden;
+  width: 350px;
+  padding: 20px;
+  /* border-top-left-radius: 25%;
+  border-bottom-right-radius: 25%; */
+  /* background-image: url(./assets/pluto.jpg); */
+}
+
+/* .listen-button> button:hover {
+  background-color: #f4f4f4;
+  color: #d60017;
+  transition: all 0.3s ease-in-out;
+} */
+
+footer {
+  background-color: #f8f9fa;
+  color: #d60017;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+footer p {
+  padding: 10px 0px 0px 0px;
+  font-size: 1.2rem;
+  font-weight: 300;
+  font-family: "Nunito", sans-serif;
+  /* color: #e3dbdb; */
+}
+footer ul li {
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  justify-content: center;
+  flex-direction: row;
+  margin: 0 10px;
+}
+footer ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+}
+footer ul li a:hover {
+  text-decoration: none;
+  color: #d60017;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 751px) {
+  /* Responsive rules go here for < less than or = 768px*/
+  body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    padding: 0 auto;
+    /* background-color: #e8e4e4d9; */
+    background-color: #ffffff;
+    /* justify-content: center;
+    align-items: center; */
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+  }
+  section {
+    margin-bottom: 30px;
+    /* margin: 0 150px 20px 150px; */
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  .head {
+    margin-top: 20px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    border-bottom-right-radius: 0px;
+    padding-left: 50px;
+  }
+  .head > h1 {
+    font-size: 50px;
+    color: #d60017;
+    margin-bottom: 15px;
+  }
+  em {
+    color: #d60017;
+    font-size: 65px;
+  }
+  .lyrics-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* width: 100%; */
+    border-top-right-radius: 0px;
+  }
+}
+
+@media screen and (max-width: 750px) and (min-width: 321px) {
+  /* Your responsive rules go here for < less than or = 480px */
+  body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    padding: 0 auto;
+    /* background-color: #e8e4e4d9; */
+    background-color: #ffffff;
+    /* justify-content: center;
+    align-items: center; */
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  section {
+    margin-bottom: 30px;
+    /* margin: 0 150px 20px 150px; */
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  .head {
+    margin-top: 5px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 100;
+    padding: 15px;
+    border-bottom-right-radius: 0px;
+    /* padding-left: 50px; */
+  }
+  .head > h1 {
+    font-size: 35px;
+    color: #d60017;
+    margin-bottom: 10px;
+  }
+  .head > h2 {
+    font-size: 15px;
+  }
+  .head > p {
+    font-size: 12px;
+  }
+  em {
+    color: #d60017;
+    font-size: 35px;
+  }
+  .lyrics-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* width: 100%; */
+    border-top-right-radius: 0;
+  }
+  .lyrics-text {
+    padding: 10px 30px;
+    margin-right: 0px;
+    /* font-size: 12px;
+    text-align: start; */
+  }
+  .album-art {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450) and (min-width: 321px) {
+  /* Your responsive rules go here for < less than or = 480px */
+  body {
+    font-size: 16px;
+    padding: 0 auto;
+    /* background-color: #e8e4e4d9; */
+    background-color: #ffffff;
+    /* justify-content: center;
+    align-items: center; */
+  }
+  .container {
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    padding: 0 ;
+  }
+  section {
+    margin-bottom: 30px;
+    /* margin: 0 150px 20px 150px; */
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  .head {
+    margin-top: 5px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 100;
+    padding: 15px;
+    border-bottom-right-radius: 0px;
+    /* padding-left: 50px; */
+  }
+  .head > h1 {
+    font-size: 55px;
+    color: #d60017;
+    margin-bottom: 10px;
+  }
+  .album-art {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 320px) and (min-width: 0px) {
+  /* Your responsive rules go here for < less than or = 320px */
+  body {
+    font-size: 16px;
+    padding: 0 auto;
+    /* background-color: #e8e4e4d9; */
+    background-color: #ffffff;
+    /* justify-content: center;
+    align-items: center; */
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  section {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  .head {
+    margin-top: 5px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 100;
+    padding: 15px;
+    border-bottom-right-radius: 0px;
+    /* padding-left: 50px; */
+  }
+  .lyrics-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* width: 100%; */
+    border-top-right-radius: 0;
+  }
+  .head > h1 {
+    font-size: 55px;
+    color: #d60017;
+    margin-bottom: 10px;
+  }
+  .head > h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .head > h2 > em {
+    font-size: 25px;
+    color: #d60017;
+    margin-bottom: 10px;
+  }
+  .listen-button {
+    display: flex;
+    justify-content: center;
+    /* width: 100%; */
+    padding: 25px 0px 0px 0px;
+    color: #f4f4f4;
+    font-family: "Nunito", sans-serif;
+  }
+  .listen-button > button {
+    font-size: 7px;
+    padding: 10px 9px;
+    border-radius: 5px;
+    background-color: #d60017;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+  }
+  .listen-button > button > a {
+    color: #f4f4f4;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 10px;
+  }
+  .listen-button > button:hover {
+    background-color: #1b0303;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+  }
+  .album-art {
+    display: none;
+  }
+}
